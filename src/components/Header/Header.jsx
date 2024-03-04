@@ -88,7 +88,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         <div className={`lg:hidden text-center py-10 absolute z-50 bg-[#0a1f2b] top-18 left-0 w-full lg:w-auto lg:pl-0 transition-all duration-500 ease-in ${open ? 'flex justify-center items-center' : 'hidden'}`}>
-          <ul className='py-10 grid gap-y-10'>
+          <ul className='py-10 grid gap-y-10 uppercase'>
             <li>
               <NavLink onClick={closeMenu} exact to="/" className='text-white hover:text-gray-400 duration-500 active:text-red-500'>Home</NavLink>
             </li>

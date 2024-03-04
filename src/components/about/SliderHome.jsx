@@ -8,14 +8,14 @@ const dataItems = [
   {
     id: 1,
     imageBackground: image1,
-    name: 'Lorem ipsum dolor sit amet',
-    description: 'Lorem ipsum dolor sit amet consectour aset lorem ipsum apis',
+    name: 'METAL IS OUR LANGUAGE',
+    description: 'Empowering innovation, meeting real customer needs. Our management fosters continuous improvement through employee and partner engagement, guided by standards.',
   },
   {
     id: 2,
     imageBackground: image2,
-    name: 'Lorem ipsum sit amet consectour apis',
-    description: 'Lorem ipsum dolor sit amet consectour aset consectour amet respect apis',
+    name: 'Zero Defects or Delays',
+    description: 'With zero delays or defects, our metal company sets the standard for efficiency and excellence. Our commitment to quality ensures seamless operations and flawless products, every time.',
   },
 ];
 
@@ -54,9 +54,9 @@ const SliderHome = () => {
           className="slider-item relative h-96 bg-cover bg-center"
           style={{ backgroundImage: `url(${item.imageBackground})` }}
         >
-          <div className="absolute lg:w-1/2 top-1/2 h-52 px-5 py-8 lg:py-4 left-2 right-2 lg:left-8 transform -translate-y-1/2 text-white" style={{ backgroundColor: 'rgba(39, 45, 51, 0.85)' }}>
+          <div className="absolute lg:w-1/2 top-1/2 h-60 px-5 py-8 lg:py-4 left-2 right-2 lg:left-8 transform -translate-y-1/2 text-white" style={{ backgroundColor: 'rgba(39, 45, 51, 0.85)' }}>
             <p className="text-[25px] lg:text-[55px] lg:leading-[52px] font-custom mb-2 text-[#ffaa4a]">{item.name}</p>
-            <p className="text-base lg:text-lg font-custom1">{item.description}</p>
+            <p className="text-sm lg:text-lg font-custom1">{item.description}</p>
           </div>
         </div>
       ))}

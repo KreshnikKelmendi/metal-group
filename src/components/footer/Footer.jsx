@@ -1,8 +1,9 @@
 import React from 'react';
 import metalLogo from '../Assets/metalLogo.png';
-import certificate1 from '../Assets/certificate1.jpg';
-import certificate2 from '../Assets/certificate2.png';
-import certificate3 from '../Assets/3rdcertificate.png';
+import certificate1 from '../Assets/cer1.png';
+import certificate2 from '../Assets/Picture20.png';
+import certificate3 from '../Assets/Picture18.png';
+import certificate4 from '../Assets/Picture22.png';
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
           </div>
           <nav className="flex flex-col lg:flex-row lg:ml-8 space-y-10 lg:space-y-0 lg:space-x-24">
             <div className="mb-4 lg:mb-0 mt-6 lg:mt-0">
-              <h3 className="text-lg font-semibold mb-2 text-[#ffaa4a]">QUICK LINKS</h3>
+              {/* <h3 className="text-lg font-semibold mb-2 text-[#ffaa4a]">QUICK LINKS</h3> */}
               <ul className="space-y-4 text-base lg:text-center">
               <li>
                   <a href="/" className="hover:text-gray-300">
@@ -54,7 +55,7 @@ const Footer = () => {
               </ul>
             </div> */}
            <div className="mb-4 lg:mb-0 lg:ml-8">
-    <h3 className="text-lg font-semibold font-custom mb-2 text-[#ffaa4a]">CONTACT US</h3>
+    {/* <h3 className="text-lg font-semibold font-custom mb-2 text-[#ffaa4a]">CONTACT US</h3> */}
     <ul className="space-y-4 text-base text-center">
         <li className="flex items-center">
         <span className='text-base mr-2'>📍</span>
@@ -82,13 +83,14 @@ const Footer = () => {
 
       </footer>
 
-      <div className="bg-[#0a1f2b] py-10 justify-center  items-center">
-      <h3 className="text-lg font-semibold text-center text-white mb-2">Certificates</h3>
-          <div className="flex space-x-4 justify-center items-center">
+      <div className="bg-[#0a1f2b] py-10 px-10 justify-center items-center ">
+      <h3 className="text-lg font-semibold text-center text-white">Certificates</h3>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-6 justify-center items-center ">
           
-            <img src={certificate1} alt="Certificate 1" className="w-24 h-auto object-cover" />
-            <img src={certificate2} alt="Certificate 2" className="w-24 h-auto object-cover" />
-            <img src={certificate3} alt="Certificate 3" className="w-24 h-auto object-cover" />
+            <img src={certificate1} alt="Certificate 1" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
+            <img src={certificate2} alt="Certificate 2" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
+            <img src={certificate3} alt="Certificate 3" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
+            <img src={certificate4} alt="Certificate 3" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
           </div>
         </div>
 
