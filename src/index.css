@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: #FFF6E7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: Raleway;
+    src: url(../public/fonts/Raleway-Bold.ttf);
+  }
+
+
+  @font-face {
+    font-family: RalewayMedium;
+    src: url(../public/fonts/Raleway-Medium.ttf);
+  }
+  
+
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-metal{
+    background-image: url(./components/Assets/685.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.bg-metalgroup{
+  background-image: url(./components/Assets/logoMetalAbout.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.active{
+  color: #ffaa4a;
+}
+
+
+
