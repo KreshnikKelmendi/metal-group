@@ -35,21 +35,22 @@ const BannerAbout = () => {
             WHO WE ARE
           </p>
           <motion.p className='text-[#444] font-custom1 mt-2' variants={fadeInLeft}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non ratione officia aspernatur 
-            iste et, laudantium magni nobis totam aperiam maxime dolorum dolore assumenda similique 
-            nam ab quis sed ea impedit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Perferendis magnam dignissimos distinctio cumque assumenda ipsa voluptatem porro facere, 
-            minus aliquid dolorum officia molestiae repellat debitis rem expedita sint quas soluta?
+                Metal VM, previously recognized as Metal VM, stands as a distinguished enterprise 
+                esteemed for its exceptional expertise in the manufacturing of scaffolding systems. 
+                Encompassing a broad spectrum of offerings within its expansive product lineup, 
+                scaffolding emerges as a pivotal cornerstone, accompanied by a varied assortment 
+                of associated solutions.
           </motion.p>
         </motion.div>
         <motion.div className='lg:w-1/2 lg:ml-6' variants={fadeInLeft}>
           <motion.p className='text-[#444] font-custom1' variants={fadeInLeft}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eos libero atque 
-            aliquam, modi pariatur quae neque sapiente fugit necessitatibus excepturi exercitationem 
-            unde quo distinctio voluptates placeat, aspernatur reprehenderit ipsa! Lorem ipsum dolor, sit 
-            amet consectetur adipisicing elit. Modi nisi, possimus voluptatem atque est commodi cupiditate 
-            alias voluptates, debitis minima hic. Aperiam quam accusantium a inventore blanditiis rem 
-            explicabo excepturi.
+          Noteworthy is Metal VM's establishment of a formidable 
+                presence within European markets, with a distinct emphasis placed on cultivating 
+                strong footholds in Austria and Sweden.
+            Leveraging strategic export endeavors, the company consistently extends its repertoire of 
+            high-caliber scaffolding products to a discerning clientele spread across these nations, 
+            thereby underscoring its unwavering dedication to upholding standards of excellence and 
+            reliability that resonate with the exacting requirements of the European market.
           </motion.p>
           <img src={secondImage} alt='' className='w-full h-80 lg:h-[70vh] object-cover mt-6' variants={fadeInLeft} />
         </motion.div>

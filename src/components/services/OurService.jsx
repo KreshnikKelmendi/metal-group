@@ -30,19 +30,19 @@ const ServiceItem = ({ service, index }) => {
       transition={transition}
       className='text-white px-5'
     >
-      {index % 1 === 0 ? (
+   
         <>
           <p className='text-3xl font-custom text-[#ffaa4a]'>{`${service.id}. ${service.title}`}</p>
           <p className='mt-2 font-custom1 text-[12px] lg:text-base'>{service.description}</p>
           <img src={service.image} alt='' className='w-full h-80 lg:h-[60vh] mt-6 object-cover' />
         </>
-      ) : (
+    
         <>
           {/* <img src={service.image} alt='' className='w-full h-80 lg:h-[60vh] mt-6 object-cover' />
           <p className='text-3xl mt-6 font-custom text-[#ffaa4a]'>{`${service.id}. ${service.title}`}</p>
           <p className='mt-2 font-custom1 text-[12px] lg:text-base'>{service.description}</p> */}
         </>
-      )}
+
     </motion.div>
   );
 };
@@ -79,7 +79,8 @@ const OurService = () => {
       title: 'Projecting',
       description: 'Our company, a leader in metal manufacturing, prides itself on projecting manufacturing capacity as a testament to our commitment to excellence. More than just numbers, it represents our dedication to meeting and exceeding client demands with precision and efficiency. With cutting-edge facilities and skilled professionals, we deliver high-quality metal products within specified time frames, showcasing our relentless pursuit of perfection. Partnering with us means gaining access to reliability, consistency, and the ability to turn aspirations into achievements, redefining possibilities in metal production.',
       image: picture5,  
-    }
+    },
+
   ];
 
   return (
@@ -87,7 +88,7 @@ const OurService = () => {
       <p className='text-[#ffaa4a] font-custom text-center'>Our Services</p>
       <p className='text-center font-custom1 text-white text-3xl'>We work to craft</p>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 px-3 lg:px-8 py-10'>
-        {servicesData.map((service, index) => (
+        {servicesData?.map((service, index) => (
           <ServiceItem key={index} service={service} index={index} />
         ))}
       </div>

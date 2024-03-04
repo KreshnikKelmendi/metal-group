@@ -58,7 +58,7 @@ const Header = () => {
               <NavLink onClick={closeMenu} to="/contact" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Contact</NavLink>
             </li>
             <button className='uppercase hidden lg:block bg-[#444] text-white hover:bg-indigo-700 py-2 px-3 font-custom text-[10px]'>
-              Get in touch
+            <a href="mailto:info@group.com">GET IN TOUCH</a>
           </button>
           </ul>
         </div>

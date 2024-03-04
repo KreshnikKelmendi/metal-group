@@ -27,15 +27,7 @@ const Vision = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        VISION
-      </motion.p>
-      <motion.p
-        className='text-center font-custom1 text-[#444] text-3xl'
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        OUR VISION
+        VISION & MISSION
       </motion.p>
 
       {/* Vision Content */}
@@ -64,12 +56,15 @@ const Vision = () => {
             className='mx-auto lg:w-[66%] lg:py-16 font-custom1 text-justify tracking-tighter text-[#444]'
             variants={textVariants}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae
-            totam! Explicabo, sapiente omnis ad iure quidem nemo tenetur expedita dolorem, eligendi
-            earum obcaecati. Minus optio repellendus odio maxime. Perferendis.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae
-            totam! Explicabo, sapiente omnis ad iure quidem nemo tenetur expedita dolorem, eligendi
-            
+            Our commitment lies not only in delivering products of superior quality but also in fostering 
+            enduring and prosperous relationships with both our valued customers and esteemed suppliers. 
+            By consistently providing high-caliber products, we aim to instill confidence and satisfaction 
+            in our clientele, ensuring that their needs and expectations are not just met but exceeded. 
+            Moreover, we recognize the vital role that our suppliers play in our operations, and we 
+            endeavor to cultivate partnerships characterized by mutual respect, trust, and collaboration. 
+            Through this dedicated focus on quality and relationship-building, we strive to establish 
+            ourselves as a trusted ally in the marketplace, dedicated to the success and satisfaction of 
+            all stakeholders involved.
           </motion.p>
         </motion.div>
       </div>

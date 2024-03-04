@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import icon1 from "../Assets/steelIcon.png";
 import icon2 from "../Assets/empIcon.png";
 import icon3 from "../Assets/welder.png";
+import icon4 from "../Assets/world.png";
 
 const CountItem = ({ id, description, icon, maxCount }) => {
   const [count, setCount] = useState(0);
@@ -44,7 +45,7 @@ const CountEmployer = () => {
     { id: 'steelConstruction', description: 'Years in Bussiness', icon: icon3, maxCount: 57 },
     { id: 'employees', description: 'Employees', icon: icon2, maxCount: 60 },
     { id: 'steelConstruction', description: 'Fabrication (Tons) Medium Steel Construction', icon: icon1, maxCount: 200 },
-    { id: 'steelConstruction', description: 'Medium Steel Construction', icon: icon1, maxCount: 200 },
+    { id: 'export', description: 'Export Countries', icon: icon4, maxCount: 6 },
    
   ];
 

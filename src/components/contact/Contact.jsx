@@ -27,7 +27,7 @@ const Contact = () => {
       ref={ref}
     >
       <p className='text-[#ffaa4a] font-custom text-center'>Contact Us</p>
-      <p className='text-center font-custom1 text-[#444] text-3xl'>Feel free to contact!</p>
+      <p className='text-center font-custom1 text-[#444] text-3xl'>Feel free to contact us!</p>
 
       <div className=' mt-8'>
         <motion.div className=' mb-8 lg:mb-0' variants={fadeInLeft}>
@@ -56,10 +56,9 @@ const Contact = () => {
               +383 49 123 456
             </motion.p>
 
-            <motion.div className='mb-4' variants={{ visible: { opacity: 1, x: 0 }, hidden: { opacity: 0, x: -20 } }} initial='hidden' animate={inView ? 'visible' : 'hidden'} transition={{ delay: itemDelay * 4 }}>
-              <p className='font-bold font-custom'>Description:</p>
-              <p className='font-custom1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </motion.div>
+            {/* <motion.div className='mb-4' variants={{ visible: { opacity: 1, x: 0 }, hidden: { opacity: 0, x: -20 } }} initial='hidden' animate={inView ? 'visible' : 'hidden'} transition={{ delay: itemDelay * 4 }}>
+             
+            </motion.div> */}
           </div>
         </motion.div>
 

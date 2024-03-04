@@ -2,7 +2,7 @@ import React from 'react';
 import metalLogo from '../Assets/metalLogo.png';
 import certificate1 from '../Assets/certificate1.jpg';
 import certificate2 from '../Assets/certificate2.png';
-import certificate3 from '../Assets/certificate1.jpg';
+import certificate3 from '../Assets/3rdcertificate.png';
 
 const Footer = () => {
   return (
@@ -92,8 +92,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bg-gray-800 h-14 flex flex-col justify-center items-center">
-    <p className="text-xs text-white mb-2 font-custom1">Metal Group © 2024 | All Rights Reserved</p>
+        <div className="bg-gray-800 h-12 flex flex-col justify-center items-center">
+    <p className="text-xs text-white font-custom1">Metal Group © 2024 | All Rights Reserved</p>
     </div>
    
      

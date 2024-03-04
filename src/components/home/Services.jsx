@@ -30,8 +30,8 @@ const dataService = [
   },
   {
     id: 6,
-    serviceName: 'TECHNOLOGY',
-    description: 'In 2017, the company initiated investments in state-of-the-art machinery, including an automated welding robot, multiple tracking machines, and the latest generation of metal cutting, profile cutting, and drilling machines, along with a metal pipe cutting robot.',
+    serviceName: 'INNOVATIVE SOLUTIONS',
+    description: 'A group of engineers perform static calculations, 3D modeling with Tekla software as well as making drawings for production and installation. They design and optimize all types of construction, combining technical expertise and mastery of architectural finishing requirements.',
   },
 ];
 

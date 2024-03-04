@@ -20,8 +20,9 @@ const Export = () => {
         Export
       </p>
       <p className='px-5 lg:px-0 text-center font-custom1 text-[#444] text-[12px] lg:w-[50%] lg:mx-auto mt-4'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptates exercitationem enim dignissimos adipisci
-        delectus numquam obcaecati quasi eveniet consequuntur natus dolor laborum impedit quisquam, quam ab minima consequatur! Quos?
+        Due to the high level of expertise, recognized by the impossible qualifications, 
+        Metal Group is becoming a leader in the construction of metal structures exporting to 
+        European countries such as:
       </p>
 
       <div className='w-full flex flex-col lg:flex-row mt-6'>
