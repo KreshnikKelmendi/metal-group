@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import menu from "../Assets/menu.png";
-import closeIcon from "../Assets/remove.png";
+import closeIcon from "../Assets/cross.png";
 import logo from "../Assets/logoMetalAbout.png";
 
 const Header = () => {
