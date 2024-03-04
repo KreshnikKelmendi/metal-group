@@ -38,7 +38,7 @@ const Header = () => {
       <div className='lg:flex items-center justify-between py-4 z-50'>
         <div className=''>
           <Link to="/" onClick={() => window.scrollTo({ top: 0, left: 0 })}>
-            <img className='w-fit h-12 object-cover' src={logo} alt='' />
+            <img className='w-12 h-12 object-contain' src={logo} alt='' />
             <p className='text-base text-black font-custom'></p>
           </Link>
         </div>
@@ -75,10 +75,10 @@ const Header = () => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="#444"
+              fill="#FFF"
               viewBox="0 0 24 24"
-              width="24"
-              height="24"
+              width="28"
+              height="28"
             >
               <path d="M0 0h24v24H0z" fill="none" />
               <path d="M4 18h16c.552 0 1-.448 1-1s-.448-1-1-1H4c-.552 0-1 .448-1 1s.448 1 1 1zm0-5h16c.552 0 1-.448 1-1s-.448-1-1-1H4c-.552 0-1 .448-1 1s.448 1 1 1zM3 7c0-.552.448-1 1-1h16c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1z" />
@@ -87,22 +87,22 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden text-center py-10 absolute z-50 bg-white top-18 left-0 w-full lg:w-auto lg:pl-0 transition-all duration-500 ease-in ${open ? 'flex justify-center items-center' : 'hidden'}`}>
+        <div className={`lg:hidden text-center py-10 absolute z-50 bg-[#0a1f2b] top-18 left-0 w-full lg:w-auto lg:pl-0 transition-all duration-500 ease-in ${open ? 'flex justify-center items-center' : 'hidden'}`}>
           <ul className='py-10 grid gap-y-10'>
             <li>
-              <NavLink onClick={closeMenu} exact to="/" className='text-[#444] active hover:text-gray-400 duration-500 active:text-red-500'>Home</NavLink>
+              <NavLink onClick={closeMenu} exact to="/" className='text-white hover:text-gray-400 duration-500 active:text-red-500'>Home</NavLink>
             </li>
             <li>
-              <NavLink onClick={closeMenu} to="/about-metal-group" className='text-[#444] hover:text-gray-400 duration-500 active:text-red-500'>About Us</NavLink>
+              <NavLink onClick={closeMenu} to="/about-metal-group" className='text-white hover:text-gray-400 duration-500 active:text-red-500'>About Us</NavLink>
             </li>
             <li>
-              <NavLink onClick={closeMenu} to="/services" className='text-[#444] hover:text-gray-400 duration-500 active:text-red-500'>Services</NavLink>
+              <NavLink onClick={closeMenu} to="/services" className='text-white hover:text-gray-400 duration-500 active:text-red-500'>Services</NavLink>
             </li>
             <li>
-              <NavLink onClick={closeMenu} to="/contact" className=' text-[#444] hover:text-gray-400 duration-500 active:text-red-500'>Contact</NavLink>
+              <NavLink onClick={closeMenu} to="/contact" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Contact</NavLink>
             </li>
             {/* Button inside the mobile menu */}
-            <li>
+            <li className='text-white border border-white px-5 py-1 font-custom1 font-bold hover:bg-white hover:text-[#444]'>
               
                 <a href="mailto:info@group.com">GET IN TOUCH</a>
               
