@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import imageAbout from "../Assets/logoMetalAbout.png";
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -28,6 +29,12 @@ const About = () => {
       >
         <div className='lg:w-1/2'>
           <p className='text-[#444] text-sm font-custom1 mt-5 text-justify'>Metal VM, formerly known as Metal VM, is a distinguished enterprise renowned for its manufacturing prowess in scaffolding systems. Within its extensive product portfolio, scaffolding stands as a cornerstone offering, complemented by a diverse array of related solutions. Notably, Metal VM has cultivated a robust presence in European markets, with a particular focus on Austria and Sweden. Through strategic export initiatives, the company consistently delivers its high-quality scaffolding products to discerning clientele across these nations, showcasing a commitment to excellence and reliability in meeting the stringent standards of the European market.</p>
+          <Link to="/about-metal-group"  onClick={() =>
+                          window.scrollTo({
+                            top: 0,
+                            left: 0,
+                          })
+                        }>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -35,6 +42,7 @@ const About = () => {
           >
             See More
           </motion.button>
+          </Link>
         </div>
         <motion.div
           initial='hidden'
