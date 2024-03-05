@@ -26,7 +26,7 @@ const Contact = () => {
       variants={staggerChildren}
       ref={ref}
     >
-      <p className='text-[#ffaa4a] font-custom text-center'>Contact Us</p>
+      <p className='text-[#444] font-custom text-center'>Contact Us</p>
       <p className='text-center font-custom1 text-[#444] text-3xl'>Feel free to contact us!</p>
 
       <div className=' mt-8'>

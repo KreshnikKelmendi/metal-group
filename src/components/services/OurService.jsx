@@ -32,8 +32,8 @@ const ServiceItem = ({ service, index }) => {
     >
    
         <>
-          <p className='text-3xl font-custom text-[#ffaa4a]'>{`${service.id}. ${service.title}`}</p>
-          <p className='mt-2 font-custom1 text-[12px] lg:text-base'>{service.description}</p>
+          <p className='text-3xl font-custom text-white'>{`${service.id}. ${service.title}`}</p>
+          <p className='mt-2 font-custom1 text-sm text-gray-400'>{service.description}</p>
           <img src={service.image} alt='' className='w-full h-80 lg:h-[60vh] mt-6 object-cover' />
         </>
     
@@ -85,14 +85,14 @@ const OurService = () => {
 
   return (
     <div className='w-full bg-black py-5 relative'>
-      <p className='text-[#ffaa4a] font-custom text-center'>Our Services</p>
+      <p className='text-white font-custom text-center'>Our Services</p>
       <p className='text-center font-custom1 text-white text-3xl'>We work to craft</p>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 px-3 lg:px-8 py-10'>
         {servicesData?.map((service, index) => (
           <ServiceItem key={index} service={service} index={index} />
         ))}
       </div>
-      <div className='absolute hidden lg:block inset-y-40 left-1/2 w-px bg-[#ffaa4a]'></div>
+      <div className='absolute hidden lg:block inset-y-40 left-1/2 w-px bg-[#444]'></div>
     </div>
   );
 };

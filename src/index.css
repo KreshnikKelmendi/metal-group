@@ -33,8 +33,36 @@ body{
   background-size: 50%;
 }
 
-.active{
-  color: #ffaa4a;
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0; /* Set initial width to 0 */
+  height: 2px;
+  background-color: #444;
+  border-radius: 1px;
+  transition: width 0.3s ease; /* Add a transition for the width property */
+}
+
+.active:hover::after {
+  width: 100%; /* Expand to 100% on hover for a visual indication */
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0%;
+  width: 26px; /* Set the width to 50% of the line */
+  height: 2px;
+  background-color: #444;
+  border-radius: 1px;
+  transition: width 0.7s ease; /* Add a transition for the width property */
 }
 
 

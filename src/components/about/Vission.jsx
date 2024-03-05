@@ -22,7 +22,7 @@ const Vision = () => {
     <div className='py-10'>
       {/* Vision Header */}
       <motion.p
-        className='text-[#ffaa4a] font-custom text-center'
+        className='text-[#444] text-2xl font-custom text-center'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -53,7 +53,7 @@ const Vision = () => {
         >
           {/* Vision Text */}
           <motion.p
-            className='mx-auto lg:w-[66%] lg:py-16 font-custom1 text-justify tracking-tighter text-[#444]'
+            className='mx-auto lg:w-[66%] text-sm lg:py-16 font-custom1 text-justify tracking-tighter text-[#444]'
             variants={textVariants}
           >
             Our commitment lies not only in delivering products of superior quality but also in fostering 

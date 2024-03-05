@@ -18,7 +18,7 @@ const About = () => {
   return (
     <div className='w-full px-8 lg:px-8 mt-16'>
       <p className='font-custom text-3xl lg:text-[55px] text-[#0a1f2b]'>About Us</p>
-      <p className='font-custom text-[#ffaa4a] text-base lg:text-[25px] mt-2 lg:mt-6 lg:w-1/2'>Metal Group LLC has been operating in the metal industry since 1967.</p>
+      <p className='font-custom text-[#444] text-base lg:text-[25px] mt-2 lg:mt-6 lg:w-1/2'>Metal Group LLC has been operating in the metal industry since 1967.</p>
       <motion.div
         ref={ref}
         initial='hidden'
@@ -38,7 +38,7 @@ const About = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className='bg-[#0a1f2b] text-white w-[200px] mt-5 py-2 hover:bg-[#ffaa4a]'
+            className='bg-[#0a1f2b] text-white w-[200px] mt-5 py-2 hover:bg-[#444]'
           >
             See More
           </motion.button>

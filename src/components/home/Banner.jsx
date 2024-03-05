@@ -39,7 +39,7 @@ const Banner = () => {
           <motion.h1 className=" font-bold mb-4">
             <span className="text-lg font-custom1">WELCOME TO FACTORY & METAL INDUSTRY COMPANY</span>
             <br />
-                <p className='text-[#ffaa4a] text-4xl'>{text}</p>
+                <p className='text-white text-4xl'>{text}</p>
           </motion.h1>
         </motion.div>
       </div>

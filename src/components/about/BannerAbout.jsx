@@ -26,15 +26,15 @@ const BannerAbout = () => {
       variants={staggerChildren}
       ref={ref}
     >
-      <p className='text-[#ffaa4a] font-custom text-center'>About us</p>
+      <p className='text-[#444] font-custom text-center'>About us</p>
       <p className='text-center font-custom1 text-[#444] text-3xl'>WHO WE ARE</p>
       <div className='w-full flex flex-col lg:flex-row mt-10'>
         <motion.div className='lg:w-1/2' variants={fadeInLeft}>
           <img src={firstImage} alt='' className='w-full h-80 lg:h-[70vh] object-cover' />
-          <p className='text-[#ffaa4a] mt-6 font-custom' variants={fadeInLeft}>
+          <p className='text-[#444] mt-6 font-custom' variants={fadeInLeft}>
             WHO WE ARE
           </p>
-          <motion.p className='text-[#444] font-custom1 mt-2' variants={fadeInLeft}>
+          <motion.p className='text-[#444] text-sm font-custom1 mt-2' variants={fadeInLeft}>
                 Metal VM, previously recognized as Metal VM, stands as a distinguished enterprise 
                 esteemed for its exceptional expertise in the manufacturing of scaffolding systems. 
                 Encompassing a broad spectrum of offerings within its expansive product lineup, 
@@ -43,7 +43,7 @@ const BannerAbout = () => {
           </motion.p>
         </motion.div>
         <motion.div className='lg:w-1/2 lg:ml-6' variants={fadeInLeft}>
-          <motion.p className='text-[#444] font-custom1' variants={fadeInLeft}>
+          <motion.p className='text-[#444] font-custom1 text-sm' variants={fadeInLeft}>
           Noteworthy is Metal VM's establishment of a formidable 
                 presence within European markets, with a distinct emphasis placed on cultivating 
                 strong footholds in Austria and Sweden.

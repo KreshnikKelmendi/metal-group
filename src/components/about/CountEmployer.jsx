@@ -30,9 +30,9 @@ const CountItem = ({ id, description, icon, maxCount }) => {
   }, [inView, controls, maxCount]);
 
   return (
-    <div className="flex lg:border-l border-[#ffaa4a] flex-col mt-4 lg:mt-0 items-center mb-8 w-52 h-52 bg-[#FFF6E7] hover:text-white transition-all duration-700">
+    <div className="flex w-full flex-col mt-4 lg:mt-0 items-center mb-8 h-52 bg-[#FFF6E7] hover:text-white transition-all duration-700">
       <img src={icon} alt={`${id} icon`} className="mb-4 w-10 h-10 object-contain" />
-      <motion.div ref={ref} animate={controls} initial={{ opacity: 0, y: -50 }} className="text-4xl font-bold font-custom mb-2 text-[#ffaa4a] hover:text-[#444]">
+      <motion.div ref={ref} animate={controls} initial={{ opacity: 0, y: -50 }} className="text-4xl font-bold font-custom mb-2 text-[#444] hover:text-[#444]">
         {count}+
       </motion.div>
       <div className="text-lg font-custom text-center text-[#444] ">{description}</div>

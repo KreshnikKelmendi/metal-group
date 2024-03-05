@@ -84,7 +84,7 @@ const Footer = () => {
       </footer>
 
       <div className="bg-[#0a1f2b] py-10 px-5 lg:px-10 justify-center items-center ">
-      <h3 className="text-lg font-custom active font-semibold text-center text-white">Certificates</h3>
+      <h3 className="text-lg font-custom font-semibold text-center text-white">Certificates</h3>
           <div className="grid grid-cols-2 lg:grid-cols-4 mt-6 justify-center items-center ">
           
             <img src={certificate1} alt="Certificate 1" className="w-52 lg:w-96 p-3 h-56 lg:h-80 object-fill lg:object-contain" />

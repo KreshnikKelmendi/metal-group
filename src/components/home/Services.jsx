@@ -65,7 +65,7 @@ const Services = () => {
             // variants={variants}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <p className='font-custom font-bold text-xl text-[#ffaa4a]'>{item.serviceName}</p>
+            <p className='font-custom font-bold border-b w-fit border-b-[#444] text-xl text-gray-200'>{item.serviceName}</p>
             <p className='mt-4 text-sm font-custom1'>{item.description}</p>
           </motion.div>
         ))}
