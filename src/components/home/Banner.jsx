@@ -36,10 +36,10 @@ const Banner = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.h1 className=" font-bold mb-4">
+          <motion.h1 className="font-bold mb-4">
             <span className="text-lg font-custom1">WELCOME TO FACTORY & METAL INDUSTRY COMPANY</span>
             <br />
-                <p className='text-white text-4xl'>{text}</p>
+                <p className='text-white text-4xl'>METAL GROUP</p>
           </motion.h1>
         </motion.div>
       </div>

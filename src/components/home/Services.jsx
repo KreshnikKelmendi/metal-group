@@ -58,14 +58,14 @@ const Services = () => {
         {dataService?.map((item, index) => (
           <motion.div
             key={item.id}
-            className='border-[1px] border-gray-200 bg-[#0a1f2b] text-white rounded-md h-60 p-5'
+            className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(39, 45, 51, 0.85)' }}
             // ref={ref}
             initial='hidden'
             // animate={inView ? 'visible' : 'hidden'}
             // variants={variants}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <p className='font-custom font-bold border-b w-fit border-b-[#444] text-xl text-gray-200'>{item.serviceName}</p>
+            <p className='font-custom font-bold text-xl text-white'>{item.serviceName}</p>
             <p className='mt-4 text-sm font-custom1'>{item.description}</p>
           </motion.div>
         ))}

@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import AboutUsPage from './components/pages/AboutUsPage';
 import ServicesPage from './components/pages/ServicesPage';
 import ContactPage from './components/pages/ContactPage';
+import OurWorks from './components/pages/OurWorks';
 
 function App() {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -39,6 +40,7 @@ function App() {
         <Route path='/about-metal-group' element={<AboutUsPage />} />
         <Route path='/services' element={<ServicesPage />} />
         <Route path='/contact' element={<ContactPage />} />
+        <Route path='/our-works' element={<OurWorks />} />
       </Routes>
       <Footer />
 
@@ -53,7 +55,7 @@ function App() {
             background: '#0a1f2b',
             color: '#fff',
             border: 'none',
-            padding: '6px 9px',
+            padding: '6px 12px',
             fontWeight: '900',
             cursor: 'pointer',
           }}

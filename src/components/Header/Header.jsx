@@ -57,9 +57,9 @@ const Header = () => {
             <li className='lg:my-0 my-7 font-custom'>
               <NavLink onClick={closeMenu} to="/contact" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Contact</NavLink>
             </li>
-            <button className='uppercase hidden lg:block bg-[#444] text-white hover:bg-black hover:text-[#444] py-2 px-3 font-custom text-[10px]'>
-            <a href="mailto:info@group.com">GET IN TOUCH</a>
-          </button>
+            <li className='lg:my-0 my-7 font-custom'>
+              <NavLink onClick={closeMenu} to="/our-works" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Our Works</NavLink>
+            </li>
           </ul>
         </div>
 
@@ -71,7 +71,7 @@ const Header = () => {
 
         <div onClick={toggleMenu} className='text-3xl absolute right-5 top-6 cursor-pointer lg:hidden'>
           {open ? (
-            <img className='w-7 h-7 object-cover' src={closeIcon} alt='' />
+            <p className='text-white font-custom1 text-base'>X</p>
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -101,12 +101,10 @@ const Header = () => {
             <li>
               <NavLink onClick={closeMenu} to="/contact" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Contact</NavLink>
             </li>
-            {/* Button inside the mobile menu */}
-            <li className='text-white border border-white px-5 py-1 font-custom1 font-bold hover:bg-white hover:text-[#444]'>
-              
-                <a href="mailto:info@group.com">GET IN TOUCH</a>
-              
+            <li>
+              <NavLink onClick={closeMenu} to="/our-works" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Our Works</NavLink>
             </li>
+            
           </ul>
         </div>
       </div>

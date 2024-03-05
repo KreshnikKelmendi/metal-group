@@ -35,7 +35,7 @@ const CountItem = ({ id, description, icon, maxCount }) => {
       <motion.div ref={ref} animate={controls} initial={{ opacity: 0, y: -50 }} className="text-4xl font-bold font-custom mb-2 text-[#444] hover:text-[#444]">
         {count}+
       </motion.div>
-      <div className="text-lg font-custom text-center text-[#444] ">{description}</div>
+      <div className="text-lg font-custom text-center text-[#444]">{description}</div>
     </div>
   );
 };
@@ -44,7 +44,7 @@ const CountEmployer = () => {
   const data = [
     { id: 'steelConstruction', description: 'Years in Bussiness', icon: icon3, maxCount: 57 },
     { id: 'employees', description: 'Employees', icon: icon2, maxCount: 60 },
-    { id: 'steelConstruction', description: 'Fabrication (Tons) Medium Steel Construction', icon: icon1, maxCount: 200 },
+    { id: 'steelConstruction', description: 'T/MONTH Steel Construction CAPACITY', icon: icon1, maxCount: 200 },
     { id: 'export', description: 'Export Countries', icon: icon4, maxCount: 6 },
    
   ];
