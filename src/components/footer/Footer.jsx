@@ -16,7 +16,7 @@ const Footer = () => {
           <nav className="flex flex-col lg:flex-row lg:ml-8 space-y-10 lg:space-y-0 lg:space-x-24">
             <div className="mb-4 lg:mb-0 mt-6 lg:mt-0">
               {/* <h3 className="text-lg font-semibold mb-2 text-[#ffaa4a]">QUICK LINKS</h3> */}
-              <ul className="space-y-4 text-base lg:text-center">
+              <ul className="space-y-4 text-sm text-center">
               <li>
                   <a href="/" className="hover:text-gray-300">
                     Home
@@ -56,22 +56,22 @@ const Footer = () => {
             </div> */}
            <div className="mb-4 lg:mb-0 lg:ml-8">
     {/* <h3 className="text-lg font-semibold font-custom mb-2 text-[#ffaa4a]">CONTACT US</h3> */}
-    <ul className="space-y-4 text-base text-center">
+    <ul className="space-y-4 text-sm text-center">
         <li className="flex items-center">
-        <span className='text-base mr-2'>📍</span>
-            <a href="/join-community" className="hover:text-gray-300">
+        <span className='text-sm mr-2'>📍</span>
+            <a href="" className="hover:text-gray-300">
                 123 Main Street, Cityville
             </a>
         </li>
         <li className="flex items-center">
-        <span className='text-base mr-2'>📧</span>
-            <a href="/join-community" className="hover:text-gray-300">
+        <span className='text-sm mr-2'>📧</span>
+            <a href="" className="hover:text-gray-300">
                 contact@example.com
             </a>
         </li>
         <li className="flex items-center">
-        <span className='text-base mr-2'>📞</span>
-            <a href="/join-community" className="hover:text-gray-300">
+        <span className='text-sm mr-2'>📞</span>
+            <a href="" className="hover:text-gray-300">
                 +383 44 123 456
             </a>
         </li>
@@ -84,13 +84,13 @@ const Footer = () => {
       </footer>
 
       <div className="bg-[#0a1f2b] py-10 px-5 lg:px-10 justify-center items-center ">
-      <h3 className="text-lg font-semibold text-center text-white">Certificates</h3>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-6 justify-center items-center ">
+      <h3 className="text-lg font-custom active font-semibold text-center text-white">Certificates</h3>
+          <div className="grid grid-cols-2 lg:grid-cols-4 mt-6 justify-center items-center ">
           
-            <img src={certificate1} alt="Certificate 1" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
-            <img src={certificate2} alt="Certificate 2" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
-            <img src={certificate3} alt="Certificate 3" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
-            <img src={certificate4} alt="Certificate 4" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
+            <img src={certificate1} alt="Certificate 1" className="w-52 lg:w-96 p-3 h-56 lg:h-80 object-fill lg:object-contain" />
+            <img src={certificate2} alt="Certificate 2" className="w-52 lg:w-96 p-3 h-56 lg:h-80 object-fill lg:object-contain" />
+            <img src={certificate3} alt="Certificate 3" className="w-52 lg:w-96 p-3 h-56 lg:h-80 object-fill lg:object-contain" />
+            <img src={certificate4} alt="Certificate 4" className="w-52 lg:w-96 p-3 h-56 lg:h-80 object-fill lg:object-contain" />
           </div>
         </div>
 

@@ -35,7 +35,7 @@ const CountItem = ({ id, description, icon, maxCount }) => {
       <motion.div ref={ref} animate={controls} initial={{ opacity: 0, y: -50 }} className="text-4xl font-bold font-custom mb-2 text-[#ffaa4a] hover:text-[#444]">
         {count}+
       </motion.div>
-      <div className="text-lg font-custom text-center">{description}</div>
+      <div className="text-lg font-custom text-center text-[#444] ">{description}</div>
     </div>
   );
 };
@@ -50,7 +50,7 @@ const CountEmployer = () => {
   ];
 
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-4 lg:h-96 items-center justify-center">
+    <div className="grid grid-cols-2 overflow-hidden lg:grid-cols-4 lg:h-96 items-center justify-center">
       {data?.map((countData) => (
         <CountItem key={countData.id} {...countData} />
       ))}

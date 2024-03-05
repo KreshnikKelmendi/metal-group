@@ -48,12 +48,12 @@ function App() {
           style={{
             position: 'fixed',
             bottom: '20px',
-            left: '2px',
+            right: '2px',
             zIndex: '1000',
             background: '#0a1f2b',
             color: '#fff',
             border: 'none',
-            padding: '4px 10px',
+            padding: '6px 9px',
             fontWeight: '900',
             cursor: 'pointer',
           }}

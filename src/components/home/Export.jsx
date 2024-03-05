@@ -19,7 +19,7 @@ const Export = () => {
       <p className='font-custom text-[#444] text-3xl text-center font-bold mt-6'>
         Export
       </p>
-      <p className='px-5 lg:px-0 text-center font-custom1 text-[#444] text-[12px] lg:w-[50%] lg:mx-auto mt-4'>
+      <p className='px-5 lg:px-0 text-center font-custom1 text-[#444] text-sm lg:w-[55%] lg:mx-auto mt-4'>
         Due to the high level of expertise, recognized by the impossible qualifications, 
         Metal Group is becoming a leader in the construction of metal structures exporting to 
         European countries such as:
@@ -28,7 +28,7 @@ const Export = () => {
       <div className='w-full flex flex-col lg:flex-row mt-6'>
         {/* Left side with map */}
         <div className='lg:w-1/2'>
-          <img src={europeMap} alt='' className='w-full h-[100%] object-cover' />
+          <img src={europeMap} alt='' className='w-full h-[100%] lg:p-16 object-cover' />
         </div>
 
         {/* Right side with countries and icons */}

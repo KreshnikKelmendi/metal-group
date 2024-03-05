@@ -50,7 +50,7 @@ const Services = () => {
       <p className='font-custom text-[#444] text-3xl text-center mt-16 justify-center items-center font-bold'>
         Our Objectives
       </p>
-      <p className='text-center font-custom mt-4 px-2 lg:w-[50%] text-[12px] mx-auto text-[#444]'>
+      <p className='text-center font-custom mt-4 px-2 lg:w-[50%] text-sm mx-auto text-[#444]'>
         Our philosophy unites our actions towards our customers, our employees, and our external partners. All our actions
         are focused on:
       </p>
@@ -63,10 +63,10 @@ const Services = () => {
             initial='hidden'
             // animate={inView ? 'visible' : 'hidden'}
             // variants={variants}
-            transition={{ duration: 0.5, delay: index * 0.1 }} // Reduced delay for mobile devices
+            transition={{ duration: 0.5, delay: index * 0.1 }}
           >
             <p className='font-custom font-bold text-xl text-[#ffaa4a]'>{item.serviceName}</p>
-            <p className='mt-4 text-[12px] font-custom1'>{item.description}</p>
+            <p className='mt-4 text-sm font-custom1'>{item.description}</p>
           </motion.div>
         ))}
       </div>
