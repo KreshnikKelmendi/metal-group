@@ -83,14 +83,14 @@ const Footer = () => {
 
       </footer>
 
-      <div className="bg-[#0a1f2b] py-10 px-10 justify-center items-center ">
+      <div className="bg-[#0a1f2b] py-10 px-5 lg:px-10 justify-center items-center ">
       <h3 className="text-lg font-semibold text-center text-white">Certificates</h3>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-6 justify-center items-center ">
           
             <img src={certificate1} alt="Certificate 1" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
             <img src={certificate2} alt="Certificate 2" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
             <img src={certificate3} alt="Certificate 3" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
-            <img src={certificate4} alt="Certificate 3" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
+            <img src={certificate4} alt="Certificate 4" className="w-52 lg:w-96 h-52 lg:h-80 object-cover lg:object-contain" />
           </div>
         </div>
 

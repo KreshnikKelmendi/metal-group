@@ -48,7 +48,7 @@ function App() {
           style={{
             position: 'fixed',
             bottom: '20px',
-            right: '3px',
+            right: '0px',
             zIndex: '1000',
             background: '#0a1f2b',
             color: '#fff',
