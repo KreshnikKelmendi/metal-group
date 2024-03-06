@@ -58,7 +58,7 @@ const Services = () => {
         {dataService?.map((item, index) => (
           <motion.div
             key={item.id}
-            className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(39, 45, 51, 0.85)' }}
+            className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(39, 45, 51, 0.56)' }}
             // ref={ref}
             initial='hidden'
             // animate={inView ? 'visible' : 'hidden'}

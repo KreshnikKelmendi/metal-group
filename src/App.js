@@ -7,6 +7,7 @@ import AboutUsPage from './components/pages/AboutUsPage';
 import ServicesPage from './components/pages/ServicesPage';
 import ContactPage from './components/pages/ContactPage';
 import OurWorks from './components/pages/OurWorks';
+import SinglePageOfWork from './components/pages/SinglePageOfWork';
 
 function App() {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -34,13 +35,14 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about-metal-group' element={<AboutUsPage />} />
         <Route path='/services' element={<ServicesPage />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/our-works' element={<OurWorks />} />
+        <Route path='/our-works/:workID' element={<SinglePageOfWork />} />
       </Routes>
       <Footer />
 

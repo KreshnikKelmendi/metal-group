@@ -60,13 +60,13 @@ const Footer = () => {
         <li className="flex items-center">
         <span className='text-sm mr-2'>📍</span>
             <a href="" className="hover:text-gray-300">
-                123 Main Street, Cityville
+              5 November 151, 17523 Presevo, Serbia
             </a>
         </li>
         <li className="flex items-center">
         <span className='text-sm mr-2'>📧</span>
             <a href="" className="hover:text-gray-300">
-                contact@example.com
+              info@metalgroupllc.com
             </a>
         </li>
         <li className="flex items-center">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import menu from "../Assets/menu.png";
 import closeIcon from "../Assets/cross.png";
-import logo from "../Assets/logoMetalAbout.png";
+import logo from "../Assets/metalLogo.png";
 
 const Header = () => {
   
@@ -34,7 +34,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={`w-full lg:px-10 px-5 z-50 ${scrolling ? 'bg-[#0a1f2b]' : 'bg-[#0a1f2b]'}`}>
+    <div className={`w-full lg:px-10 px-5 shadow-sm shadow-[#a9abb014] z-50 ${scrolling ? 'bg-[#0a1f2b]' : ''}`}>
       <div className='lg:flex items-center justify-between py-4 z-50'>
         <div className=''>
           <Link to="/" onClick={() => window.scrollTo({ top: 0, left: 0 })}>
@@ -46,20 +46,21 @@ const Header = () => {
         <div className='hidden lg:flex justify-center items-center'>
           <ul className='lg:flex lg:items-center uppercase text-center lg:pb-0 pb-12 font-normal text-[15px] lg:text-[12px] gap-x-12'>
             <li className='lg:my-0 my-7 font-custom'>
-              <NavLink onClick={closeMenu} exact to="/" className='text-white hover:text-gray-400 duration-500 active:text-red-500'>Home</NavLink>
+              <NavLink onClick={closeMenu} exact to="/" className='text-black hover:text-gray-400 duration-500 active:text-red-500'>Home</NavLink>
             </li>
             <li className='lg:my-0 my-7 font-custom'>
-              <NavLink onClick={closeMenu} to="/about-metal-group" className='text-white hover:text-gray-400 duration-500 active:text-red-500'>About Us</NavLink>
+              <NavLink onClick={closeMenu} to="/about-metal-group" className='text-black hover:text-gray-400 duration-500 active:text-red-500'>About Us</NavLink>
             </li>
             <li className='lg:my-0 my-7 font-custom'>
-              <NavLink onClick={closeMenu} to="/services" className='text-white hover:text-gray-400 duration-500 active:text-red-500'>Services</NavLink>
+              <NavLink onClick={closeMenu} to="/services" className='text-black hover:text-gray-400 duration-500 active:text-red-500'>Services</NavLink>
             </li>
             <li className='lg:my-0 my-7 font-custom'>
-              <NavLink onClick={closeMenu} to="/contact" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Contact</NavLink>
+              <NavLink onClick={closeMenu} to="/our-works" className=' text-black hover:text-gray-400 duration-500 active:text-red-500'>Our Work</NavLink>
             </li>
             <li className='lg:my-0 my-7 font-custom'>
-              <NavLink onClick={closeMenu} to="/our-works" className=' text-white hover:text-gray-400 duration-500 active:text-red-500'>Our Works</NavLink>
+              <NavLink onClick={closeMenu} to="/contact" className=' text-black hover:text-gray-400 duration-500 active:text-red-500'>Contact</NavLink>
             </li>
+            
           </ul>
         </div>
 
@@ -75,7 +76,7 @@ const Header = () => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="#FFF"
+              fill="#000"
               viewBox="0 0 24 24"
               width="28"
               height="28"

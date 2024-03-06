@@ -1,9 +1,13 @@
 import React from 'react'
 import OurService from '../services/OurService'
+import Header from '../Header/Header'
 
 const ServicesPage = () => {
   return (
-   <OurService />
+    <>
+    <Header />
+    <OurService />
+    </>
   )
 }
 

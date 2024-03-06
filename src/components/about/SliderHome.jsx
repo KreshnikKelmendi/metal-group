@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import image1 from "../Assets/metalFurnace.jpg";
-import image2 from "../Assets/Picture66.jpg";
+import image2 from "../Assets/zeroDelays.png";
 
 const dataItems = [
   {
@@ -55,7 +55,7 @@ const SliderHome = () => {
           style={{ backgroundImage: `url(${item.imageBackground})` }}
         >
           <div className="absolute justify-center items-center flex lg:w-1/2 top-1/2 h-44 px-5 py-8 lg:py-4 left-2 right-2 lg:left-8 transform -translate-y-1/2 text-white" style={{ backgroundColor: 'rgba(39, 45, 51, 0.85)' }}>
-            <p className="text-[25px] lg:text-[55px] lg:leading-[52px] font-custom mb-2 text-white">{item.name}</p>
+            <p className="text-[25px] lg:text-[55px] lg:leading-[52px] font-custom mb-2 text-white uppercase">{item.name}</p>
             {/* <p className="text-sm mt-6 font-custom1">{item.description}</p> */}
           </div>
         </div>

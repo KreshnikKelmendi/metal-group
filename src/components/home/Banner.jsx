@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import Header from '../Header/Header';
 // import Header from '../Header/Header';
 
 const Banner = () => {
@@ -28,19 +29,19 @@ const Banner = () => {
 
   return (
     <>
-      <div className="h-screen bg-black bg-metal bg-center flex flex-col items-center">
-        {/* <Header /> */}
+      <div className="h-[35vh] lg:h-screen bg-gray-100 bg-metal bg-center flex flex-col items-center">
+        <Header />
         <motion.div
-          className="flex lg:w-1/2 bg-[#0a1f2b] absolute lg:left-3 font-custom font-bold text-center top-1/2 items-center justify-center bg-opacity-75 text-white p-8"
+          className="flex lg:w-1/2 absolute lg:left-3 font-custom font-bold text-center top-1/2 items-center justify-center bg-opacity-75 text-white p-8"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
-          <motion.h1 className="font-bold mb-4">
+          {/* <motion.h1 className="font-bold mb-4">
             <span className="text-lg font-custom1">WELCOME TO FACTORY & METAL INDUSTRY COMPANY</span>
             <br />
                 <p className='text-white text-4xl'>METAL GROUP</p>
-          </motion.h1>
+          </motion.h1> */}
         </motion.div>
       </div>
     </>

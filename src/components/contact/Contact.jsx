@@ -16,7 +16,7 @@ const Contact = () => {
     visible: { transition: { staggerChildren: 0.5 } },
   };
 
-  const itemDelay = 0.2; // Adjust the delay as needed
+  const itemDelay = 0.2;
 
   return (
     <motion.div
@@ -37,7 +37,7 @@ const Contact = () => {
               <span className='font-bold font-custom'>Email:</span>
             </div>
             <motion.p className='mb-6 font-custom1' variants={{ visible: { opacity: 1, x: 0 }, hidden: { opacity: 0, x: -20 } }} initial='hidden' animate={inView ? 'visible' : 'hidden'} transition={{ delay: itemDelay }}>
-              <a href='mailto:info@example.com' className=' hover:underline'>info@metal.com</a>
+              <a href='mailto:info@example.com' className=' hover:underline'>info@metalgroupllc.com</a>
             </motion.p>
 
             <div className='flex items-center mb-4'>
@@ -45,7 +45,7 @@ const Contact = () => {
               <span className='font-bold font-custom'>Location:</span>
             </div>
             <motion.p className='mb-6 font-custom1' variants={{ visible: { opacity: 1, x: 0 }, hidden: { opacity: 0, x: -20 } }} initial='hidden' animate={inView ? 'visible' : 'hidden'} transition={{ delay: itemDelay * 2 }}>
-              123 Main Street, City, Country
+             15 November 151, 17523 Presevo, Serbia
             </motion.p>
 
             <div className='flex items-center mb-4'>
@@ -66,7 +66,7 @@ const Contact = () => {
           <iframe
             title='Location Map'
             className='w-full h-full'
-            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.606159189577!2d-122.08394558429615!3d37.386051879846356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbc033f0ed8b1%3A0x80f620a91a6b3f!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1638326857924!5m2!1sen!2sus'
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94408.21788852857!2d21.506538502199287!3d42.31572099557157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354f7e4c0da0fd1%3A0x3b633443b6fb680d!2sPre%C5%A1evo%2C%20Serbia!5e0!3m2!1sen!2s!4v1709698184415!5m2!1sen!2s"
             loading='lazy'
           ></iframe>
         </motion.div>

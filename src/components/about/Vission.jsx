@@ -57,11 +57,11 @@ const Vision = () => {
             variants={textVariants}
           >
             Our commitment lies not only in delivering products of superior quality but also in fostering 
-            enduring and prosperous relationships with both our valued customers and esteemed suppliers. 
+            enduring and prosperous relationships with both our valued customers and esteemed suppliers. <br /> <br/> 
             By consistently providing high-caliber products, we aim to instill confidence and satisfaction 
             in our clientele, ensuring that their needs and expectations are not just met but exceeded. 
             Moreover, we recognize the vital role that our suppliers play in our operations, and we 
-            endeavor to cultivate partnerships characterized by mutual respect, trust, and collaboration. 
+            endeavor to cultivate partnerships characterized by mutual respect, trust, and collaboration. <br /> <br />
             Through this dedicated focus on quality and relationship-building, we strive to establish 
             ourselves as a trusted ally in the marketplace, dedicated to the success and satisfaction of 
             all stakeholders involved.

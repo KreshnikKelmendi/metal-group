@@ -21,10 +21,10 @@ body{
 @import 'tailwindcss/utilities';
 
 .bg-metal{
-    background-image: url(./components/Assets/685.jpg);
+    background-image: url(./components/Assets/homeBackground.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 .bg-metalgroup{
   background-image: url(./components/Assets/logoMetalAbout.png);

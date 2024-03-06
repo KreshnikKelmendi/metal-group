@@ -1,9 +1,14 @@
 import React from 'react'
 import Contact from '../contact/Contact'
+import Header from '../Header/Header'
 
 const ContactPage = () => {
   return (
-    <Contact />  )
+    <>
+      <Header />
+      <Contact />  
+    </>
+    )
 }
 
 export default ContactPage
