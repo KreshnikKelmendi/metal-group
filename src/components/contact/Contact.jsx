@@ -27,7 +27,7 @@ const Contact = () => {
       ref={ref}
     >
       <p className='text-[#444] font-custom text-center uppercase'>Contact Us</p>
-      <p className='text-center font-custom1 text-[#444] uppercase text-3xl'>Feel free to contact us!</p>
+      <p className='text-center font-custom1 text-[#444] uppercase text-2xl lg:text-3xl'>Feel free to contact us!</p>
 
       <div className=' mt-8'>
         
