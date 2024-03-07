@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import europeMap from '../Assets/europe.svg';
+import europeMap from '../Assets/mappp.png';
 import locationIcon from '../Assets/placeholder.png';
 
 const Export = () => {
@@ -15,8 +15,8 @@ const Export = () => {
   ];
 
   return (
-    <div className='w-full lg:h-screen flex items-center justify-center flex-col'>
-      <p className='font-custom text-[#444] text-3xl text-center font-bold mt-6'>
+    <div className='w-full py-10 lg:py-0 flex items-center justify-center flex-col'>
+      <p className='font-custom text-[#444] text-3xl text-center font-bold'>
         Export
       </p>
       <p className='px-5 lg:px-0 text-center font-custom1 text-[#444] text-sm lg:w-[55%] lg:mx-auto mt-4'>
@@ -25,23 +25,21 @@ const Export = () => {
         European countries such as:
       </p>
 
-      <div className='w-full flex flex-col lg:flex-row mt-6'>
-        {/* Left side with map */}
-        <div className='lg:w-1/2'>
+        <div className='w-[70%]'>
           <img src={europeMap} alt='' className='w-full h-[100%] lg:p-16 object-cover' />
         </div>
 
         {/* Right side with countries and icons */}
-        <div className='lg:w-1/2 flex flex-col justify-center items-center'>
+        {/* <div className='lg:w-1/2 flex flex-col justify-center items-center'>
           <p className='text-[#444] text-xl font-bold mb-2 font-custom'></p>
           <ul className='text-[#444] text-sm list-disc'>
             {countries?.map((country, index) => (
               <AnimatedCountry key={index} country={country} index={index} />
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
-    </div>
+ 
   );
 };
 

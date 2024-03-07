@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import { worksData } from '../data/data';
+import Header from '../Header/Header';
 
 const SinglePageOfWork = () => {
     const { workID } = useParams();
@@ -13,6 +14,8 @@ const SinglePageOfWork = () => {
   const { textTitle, description, firstImage, fullText } = work;
 
   return (
+    <>
+    <Header />
     <div className='w-full justify-center items-center py-5 px-5 lg:px-10'>
         <div className=' py-6'>
             <p className='font-custom text-[#444] text-2xl'>{textTitle}</p>
@@ -24,6 +27,7 @@ const SinglePageOfWork = () => {
             <img src={firstImage} alt='' className='w-full lg:h-[80vh] object-cover' />
         </div>
     </div>
+    </>
   )
 }
 

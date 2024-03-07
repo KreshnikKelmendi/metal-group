@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import image1 from "../Assets/metalFurnace.jpg";
+import image1 from "../Assets/s1.jpg";
 import image2 from "../Assets/zeroDelays.png";
 
 const dataItems = [

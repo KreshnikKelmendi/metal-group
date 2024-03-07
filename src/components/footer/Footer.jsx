@@ -1,5 +1,5 @@
 import React from 'react';
-import metalLogo from '../Assets/metalLogo.png';
+import metalLogo from '../Assets/Picture29.png';
 import certificate1 from '../Assets/cer1.png';
 import certificate2 from '../Assets/Picture20.png';
 import certificate3 from '../Assets/Picture18.png';
@@ -72,7 +72,7 @@ const Footer = () => {
         <li className="flex items-center">
         <span className='text-sm mr-2'>📞</span>
             <a href="" className="hover:text-gray-300">
-                +383 44 123 456
+                +383 44 77 81 83
             </a>
         </li>
     </ul>

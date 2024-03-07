@@ -1,6 +1,4 @@
-body{
-  background-color: #FFF6E7;
-}
+
 
 @font-face {
     font-family: Raleway;
@@ -32,6 +30,7 @@ body{
   background-repeat: no-repeat;
   background-size: 50%;
 }
+
 
 .active {
   position: relative;

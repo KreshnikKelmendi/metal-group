@@ -5,7 +5,7 @@ import picture1 from '../Assets/service1.png';
 import picture2 from '../Assets/service2.jpg';
 import picture3 from '../Assets/service3.jpg';
 import picture4 from '../Assets/service4.jpg';
-import picture5 from '../Assets/service5.jpg';
+import picture5 from '../Assets/structuree.jpg';
 
 const ServiceItem = ({ service, index }) => {
   const [ref, inView] = useInView({
@@ -28,13 +28,13 @@ const ServiceItem = ({ service, index }) => {
       animate={inView ? 'visible' : 'hidden'}
       variants={variants}
       transition={transition}
-      className='text-white px-5'
+      className='text-black px-5'
     >
    
         <>
-          <p className='text-3xl font-custom text-white'>{`${service.id}. ${service.title}`}</p>
-          <p className='mt-2 font-custom1 text-sm text-gray-400'>{service.description}</p>
-          <img src={service.image} alt='' className='w-full h-80 lg:h-[60vh] mt-6 object-cover' />
+          <p className='text-3xl font-custom text-black'>{`${service.id}. ${service.title}`}</p>
+          <p className='mt-2 font-custom1 text-sm text-[#444]'>{service.description}</p>
+          <img src={service.image} alt='' className='w-full h-80 lg:h-[60vh] mt-6' />
         </>
     
         <>
@@ -84,15 +84,15 @@ const OurService = () => {
   ];
 
   return (
-    <div className='w-full bg-black py-5 relative'>
-      <p className='text-white font-custom text-center'>Our Services</p>
-      <p className='text-center font-custom1 text-white text-3xl'>We work to craft</p>
+    <div className='w-full py-5 relative'>
+      <p className='text-black font-custom text-center'>Our Services</p>
+      <p className='text-center font-custom1 text-black text-3xl'>We work to craft</p>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 px-3 lg:px-8 py-10'>
         {servicesData?.map((service, index) => (
           <ServiceItem key={index} service={service} index={index} />
         ))}
       </div>
-      <div className='absolute hidden lg:block inset-y-40 left-1/2 w-px bg-[#444]'></div>
+      <div className='absolute hidden lg:block inset-y-40 left-1/2 w-px bg-gray-300'></div>
     </div>
   );
 };
