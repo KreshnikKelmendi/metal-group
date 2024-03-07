@@ -25,8 +25,8 @@ const Export = () => {
         European countries such as:
       </p>
 
-        <div className='w-[70%]'>
-          <img src={europeMap} alt='' className='w-full h-[100%] lg:p-16 object-cover' />
+        <div className='w-[85%] lg:w-[70%]'>
+          <img src={europeMap} alt='' className='w-full h-[100%] lg:p-16 object-contain' />
         </div>
 
         {/* Right side with countries and icons */}
