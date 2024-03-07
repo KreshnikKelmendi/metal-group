@@ -12,7 +12,7 @@ const Works = () => {
   };
 
   return (
-    <div className='w-full py-5 px-10'>
+    <div className='w-full py-5 px-5 lg:px-10'>
       <p className='font-custom text-center text-[#444]'>Our Works</p>
       <p className='text-center font-custom1 text-[#444] text-2xl'>Lorem ipsum dolor sit amet</p>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 gap-y-12 mt-8'>
