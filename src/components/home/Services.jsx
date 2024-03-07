@@ -13,7 +13,7 @@ const Services = () => {
       </p>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-8 mt-10'>
        
-          <motion.div className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
           >
             <p className='font-custom font-bold text-xl text-white'>TECHNOLOGY</p>
             <p className='mt-4 text-sm font-custom1'>
@@ -23,7 +23,7 @@ const Services = () => {
             </p>
           </motion.div>
       
-          <motion.div className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
           >
             <p className='font-custom font-bold text-xl text-white'>TEAM</p>
             <p className='mt-4 text-sm font-custom1'>
@@ -32,7 +32,7 @@ const Services = () => {
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
           >
             <p className='font-custom font-bold text-xl text-white'>LOGISTICS</p>
             <p className='mt-4 text-sm font-custom1'>
@@ -42,7 +42,7 @@ const Services = () => {
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
           >
             <p className='font-custom font-bold text-xl text-white'>WORK ENVIRONMENT</p>
             <p className='mt-4 text-sm font-custom1'>
@@ -52,7 +52,7 @@ const Services = () => {
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
           >
             <p className='font-custom font-bold text-xl text-white'>PARTNERSHIPS</p>
             <p className='mt-4 text-sm font-custom1'>
@@ -63,7 +63,7 @@ const Services = () => {
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-60 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
           >
             <p className='font-custom font-bold text-xl text-white'>INNOVATIVE SOLUTIONS</p>
             <p className='mt-4 text-sm font-custom1'>
