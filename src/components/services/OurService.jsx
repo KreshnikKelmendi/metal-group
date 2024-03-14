@@ -55,27 +55,27 @@ const OurService = () => {
       description: 'Discover the unmatched advantages of steel in construction! With its unparalleled strength, durability, versatility, and sustainability, steel stands as the ultimate choice for your construction projects.',
       image: picture1,
     },
+    // {
+    //   id: 2,
+    //   title: 'Scaffolding',
+    //   description: 'Introducing our premium scaffolding solution, designed to revolutionize your construction experience! Ready to elevate your construction game? Choose our scaffolding solution and experience safety, efficiency, and reliability like never before.',
+    //   image: picture2,
+    // },
+    // {
+    //   id: 3,
+    //   title: 'Fences',
+    //   description: 'Explore our diverse range of fences tailored to meet your unique needs and preferences. From timeless picket fences to intricate wrought iron designs and towering privacy fences, we offer a plethora of styles, designs, and materials to complement any property.',
+    //   image: picture3,
+    // },
     {
       id: 2,
-      title: 'Scaffolding',
-      description: 'Introducing our premium scaffolding solution, designed to revolutionize your construction experience! Ready to elevate your construction game? Choose our scaffolding solution and experience safety, efficiency, and reliability like never before.',
-      image: picture2,
-    },
-    {
-      id: 3,
-      title: 'Fences',
-      description: 'Explore our diverse range of fences tailored to meet your unique needs and preferences. From timeless picket fences to intricate wrought iron designs and towering privacy fences, we offer a plethora of styles, designs, and materials to complement any property.',
-      image: picture3,
-    },
-    {
-      id: 4,
       title: 'Laser Cutting',
       description: 'Experience the pinnacle of precision and efficiency with laser cutting—an advanced technique for cutting and engraving materials with unparalleled accuracy. Harnessing the power of a focused laser beam, our cutting-edge process ensures flawless results every time. By directing a high-powered laser onto the materials surface, we achieve precise cuts and detailed engravings with remarkable clarity.',
       image: picture4,
     },
     {
      
-      id: 5,
+      id: 3,
       title: 'Projecting',
       description: 'Our company, a leader in metal manufacturing, prides itself on projecting manufacturing capacity as a testament to our commitment to excellence. More than just numbers, it represents our dedication to meeting and exceeding client demands with precision and efficiency. With cutting-edge facilities and skilled professionals, we deliver high-quality metal products within specified time frames, showcasing our relentless pursuit of perfection. Partnering with us means gaining access to reliability, consistency, and the ability to turn aspirations into achievements, redefining possibilities in metal production.',
       image: picture5,  

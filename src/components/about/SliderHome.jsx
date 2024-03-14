@@ -14,8 +14,8 @@ const dataItems = [
   {
     id: 2,
     imageBackground: image2,
-    name: 'Zero Defects or Delays',
-    description: 'With zero delays or defects, our metal company sets the standard for efficiency and excellence. Our commitment to quality ensures seamless operations and flawless products, every time.',
+    name: 'Zero Defects and Delays',
+    description: 'With zero delays and defects, our metal company sets the standard for efficiency and excellence. Our commitment to quality ensures seamless operations and flawless products, every time.',
   },
 ];
 
