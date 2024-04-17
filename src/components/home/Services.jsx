@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Services = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full pb-10'>
       <p className='font-custom uppercase text-[#444] text-3xl text-center mt-16 justify-center items-center font-bold'>
         Our Objectives
       </p>
@@ -13,9 +13,9 @@ const Services = () => {
       </p>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-8 mt-10'>
        
-          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-black font-bold rounded-md h-64 p-5 bg-gray-300'
           >
-            <p className='font-custom font-bold text-xl text-white'>TECHNOLOGY</p>
+            <p className='font-custom font-bold text-xl text-black'>TECHNOLOGY</p>
             <p className='mt-4 text-sm font-custom1'>
               In 2017, the company initiated investments in state-of-the-art machinery, including an 
               automated welding robot, multiple tracking machines, and the latest generation of metal 
@@ -23,18 +23,18 @@ const Services = () => {
             </p>
           </motion.div>
       
-          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-black font-bold rounded-md h-64 p-5 bg-gray-300' 
           >
-            <p className='font-custom font-bold text-xl text-white'>TEAM</p>
+            <p className='font-custom font-bold text-xl text-black'>TEAM</p>
             <p className='mt-4 text-sm font-custom1'>
                 A team dedicated to surface treatment works in a special workshop, equipped with machinery 
                 for the treatment of steel structures, and the painting process is also tested.
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-black font-bold bg-gray-300 rounded-md h-64 p-5'
           >
-            <p className='font-custom font-bold text-xl text-white'>LOGISTICS</p>
+            <p className='font-custom font-bold text-xl text-black'>LOGISTICS</p>
             <p className='mt-4 text-sm font-custom1'>
                The Metal Group also operates a crucial logistics department, responsible for efficiently 
                and securely packaging materials for export, providing prompt information to customers, 
@@ -42,9 +42,9 @@ const Services = () => {
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-black font-bold rounded-md h-64 p-5 bg-gray-300'
           >
-            <p className='font-custom font-bold text-xl text-white'>WORK ENVIRONMENT</p>
+            <p className='font-custom font-bold text-xl text-black'>WORK ENVIRONMENT</p>
             <p className='mt-4 text-sm font-custom1'>
                 In more than 10,000 m² and in a technical environment and modern premises, qualified 
                 workers and their assistants work in separate workshops for the treatment of steel, 
@@ -52,9 +52,9 @@ const Services = () => {
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-black font-bold bg-gray-300 rounded-md h-64 p-5'
           >
-            <p className='font-custom font-bold text-xl text-white'>PARTNERSHIPS</p>
+            <p className='font-custom font-bold text-xl text-black'>PARTNERSHIPS</p>
             <p className='mt-4 text-sm font-custom1'>
                Today Metal Group is dedicated to the design and construction of metal constructions. <br /> <br />
                Operating quality Metal Group with the support of all their projects, in the construction 
@@ -63,9 +63,9 @@ const Services = () => {
             </p>
           </motion.div>
 
-          <motion.div className='text-white rounded-md h-64 p-5' style={{ backgroundColor: 'rgba(23, 45, 51, 0.53)' }}
+          <motion.div className='text-black font-bold bg-gray-300 rounded-md h-64 p-5'
           >
-            <p className='font-custom font-bold text-xl text-white'>INNOVATIVE SOLUTIONS</p>
+            <p className='font-custom font-bold text-xl text-black'>INNOVATIVE SOLUTIONS</p>
             <p className='mt-4 text-sm font-custom1'>
                A group of engineers perform static calculations, 3D modeling with Tekla software as well 
                as making drawings for production and installation. <br /> <br /> They design and optimize all types of 

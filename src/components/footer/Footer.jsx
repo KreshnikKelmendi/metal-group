@@ -4,6 +4,7 @@ import certificate1 from '../Assets/cer1.png';
 import certificate2 from '../Assets/Picture20.png';
 import certificate3 from '../Assets/Picture18.png';
 import certificate4 from '../Assets/Picture22.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -18,24 +19,48 @@ const Footer = () => {
               {/* <h3 className="text-lg font-semibold mb-2 text-[#ffaa4a]">QUICK LINKS</h3> */}
               <ul className="space-y-4 text-sm text-center">
               <li>
-                  <a href="/" className="hover:text-gray-300">
+                  <Link to="/" onClick={() =>
+            window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            })
+          } className="hover:text-gray-300">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/about-gjelber" className="hover:text-gray-300">
+                  <Link to="/about-metal-group" onClick={() =>
+                    window.scrollTo({
+                      top: 0,
+                      left: 0,
+                      behavior: "smooth",
+                    })
+          } className="hover:text-gray-300">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/ballina" className="hover:text-gray-300">
+                  <Link to="/services" onClick={() =>
+            window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            })
+          } className="hover:text-gray-300">
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/faq" className="hover:text-gray-300">
+                 <Link to="/contact" onClick={() =>
+            window.scrollTo({
+              top: 0,
+              left: 0,
+              
+            })
+          }>
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -58,21 +83,21 @@ const Footer = () => {
     {/* <h3 className="text-lg font-semibold font-custom mb-2 text-[#ffaa4a]">CONTACT US</h3> */}
     <ul className="space-y-4 text-sm text-center">
         <li className="flex items-center">
-        <span className='text-sm mr-2'>📍</span>
+        <span className='text-sm mr-2'></span>
             <a href="" className="hover:text-gray-300">
-              5 November 151, 17523 Presevo, Serbia
+              Rr. Preshevës, Gjilan 60000 Kosovë
             </a>
         </li>
         <li className="flex items-center">
-        <span className='text-sm mr-2'>📧</span>
+        <span className='text-sm mr-2'></span>
             <a href="" className="hover:text-gray-300">
-              info@metalgroupllc.com
+              info@metalgroup-ks.com
             </a>
         </li>
         <li className="flex items-center">
-        <span className='text-sm mr-2'>📞</span>
+        <span className='text-sm mr-2'></span>
             <a href="" className="hover:text-gray-300">
-                +383 44 77 81 83
+                +383 43 70 4444
             </a>
         </li>
     </ul>
