@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import europeMap from '../Assets/ma6ppp.png';
+import europeMap from '../Assets/4736129.png';
 import locationIcon from '../Assets/placeholder.png';
 
 const Export = () => {
