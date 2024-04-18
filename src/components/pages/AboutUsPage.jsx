@@ -2,6 +2,7 @@ import React from 'react'
 import BannerAbout from '../about/BannerAbout'
 import Vission from '../about/Vission'
 import Header from '../Header/Header'
+import Services from "../home/Services.jsx"
 
 const AboutUsPage = () => {
   return (
@@ -9,6 +10,7 @@ const AboutUsPage = () => {
         <Header />
         <BannerAbout />
         <Vission />
+        <Services />
     </div>
   )
 }

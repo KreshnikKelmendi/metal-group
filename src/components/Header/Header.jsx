@@ -53,7 +53,7 @@ const Header = () => {
               <NavLink onClick={closeMenu} to="/about-metal-group" className='text-black hover:text-gray-600 duration-500 active:text-red-500'>About Us</NavLink>
             </li>
             <li className='lg:my-0 my-7 font-custom'>
-              <NavLink onClick={closeMenu} to="/services" className='text-black hover:text-gray-600 duration-600 active:text-red-500'>Objectives</NavLink>
+              <NavLink onClick={closeMenu} to="/services" className='text-black hover:text-gray-600 duration-600 active:text-red-500'>Services</NavLink>
             </li>
             <li className='lg:my-0 my-7 font-custom'>
               <NavLink onClick={closeMenu} to="/our-works" className=' text-black hover:text-gray-400 duration-600 active:text-red-500'>Our Work</NavLink>
