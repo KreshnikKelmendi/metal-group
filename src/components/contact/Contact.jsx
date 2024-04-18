@@ -33,12 +33,13 @@ const Contact = () => {
         
 
         <motion.div className='h-96 lg:h-[100vh] mt-6' variants={fadeInLeft}>
-          <iframe
-            title='Location Map'
-            className='w-full h-full'
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94408.21788852857!2d21.506538502199287!3d42.31572099557157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354f7e4c0da0fd1%3A0x3b633443b6fb680d!2sPre%C5%A1evo%2C%20Serbia!5e0!3m2!1sen!2s!4v1709698184415!5m2!1sen!2s"
-            loading='lazy'
-          ></iframe>
+          <iframe 
+              title='Location Map' 
+              className='w-full h-full' 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94188.71061523256!2d21.314556660000946!3d42.461840106248346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548d28fe87b91d%3A0xab45b8a9d06a705!2sGjilan!5e0!3m2!1sen!2s!4v1713414524032!5m2!1sen!2s" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </motion.div>
       </div>
     </motion.div>
