@@ -28,7 +28,7 @@ const About = () => {
 
   return (
     <motion.div
-      className='w-full flex flex-col lg:flex-row px-5 lg:px-8 mt-6 lg:mt-16'
+      className='w-full flex flex-col justify-center items-center lg:flex-row px-5 lg:px-8 mt-6 lg:mt-16'
       variants={containerVariants}
       initial='hidden'
       animate={controls}
