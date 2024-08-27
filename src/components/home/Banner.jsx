@@ -74,7 +74,7 @@ const Banner = () => {
         </motion.div> */}
         
         {/* Carousel Slider */}
-        <div className="w-full">
+        <div className="w-full z-40">
           <Carousel responsive={responsive} infinite={true} pauseOnHover={false} autoPlay={true} autoPlaySpeed={3000} showDots={true}>
             {images.map((image, index) => (
               <div key={index} className="">

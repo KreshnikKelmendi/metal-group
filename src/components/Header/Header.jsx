@@ -44,7 +44,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className='hidden lg:flex justify-center items-center'>
+        <div className='hidden lg:flex justify-center items-center z-50'>
           <ul className='lg:flex lg:items-center uppercase text-center lg:pb-0 pb-12 font-normal text-[15px] lg:text-[14px] gap-x-12'>
             <li className='lg:my-0 my-7 font-custom'>
               <NavLink onClick={closeMenu} exact to="/" className='text-black hover:text-gray-600 duration-500 active:text-red-500'>Home</NavLink>
