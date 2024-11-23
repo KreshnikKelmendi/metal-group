@@ -36,8 +36,7 @@ const About = () => {
     >
       <div className='lg:w-1/2'>
         <p className='font-custom text-3xl lg:text-[55px] text-[#0a1f2b] uppercase'>About Us</p>
-        <p className='font-custom text-[#444] text-base lg:text-[25px] mt-2 lg:mt-6'>Metal Group LLC has been operating in the metal industry since 1967.</p>
-        <motion.p className='text-[#444] text-sm font-custom1 mt-2' variants={fadeInLeft}>
+        <motion.p className='text-[#444] text-sm font-custom1 mt-4'>
             <b className='text-4xl'>1967</b> <br />
             HAS STARTED WORKING IN THE METAL INDUSTRY SINCE
             <br /><br />
