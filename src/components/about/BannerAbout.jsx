@@ -32,21 +32,16 @@ const BannerAbout = () => {
             WHO WE ARE
           </p>
           <motion.p className='text-[#444] text-sm font-custom1 mt-2' variants={fadeInLeft}>
-                Metal VM, previously recognized as Metal VM, stands as a distinguished enterprise 
-                esteemed for its exceptional expertise in the manufacturing of scaffolding systems. 
-                Encompassing a broad spectrum of offerings within its expansive product lineup, 
-                scaffolding emerges as a pivotal cornerstone, accompanied by a varied assortment 
-                of associated solutions.<br /> <br />
+            <b className='text-4xl'>1967</b> <br />
+            HAS STARTED WORKING IN THE METAL INDUSTRY SINCE
+            <br /><br />
+            Metal Group LLC 1967 specialized company for the production of metal structures which operates in two locations where its headquarters is in Gjilan, Kosovo.
+            <br /><br />
+            The production capacity on a monthly basis will be <b>250–300MT</b> or <b>3000–3600MT</b> on an annual basis thanks to the most modern machinery in the metal industry.
+            <br /><br />
+            All the processing (steel construction) is for European market for several years now and continues to respond to your requests in the most professional way.
           </motion.p>
-          <motion.p className='text-[#444] font-custom1 text-sm' variants={fadeInLeft}>
-          Noteworthy is Metal VM's establishment of a formidable 
-                presence within European markets, with a distinct emphasis placed on cultivating 
-                strong footholds in Austria and Sweden.
-            Leveraging strategic export endeavors, the company consistently extends its repertoire of 
-            high-caliber scaffolding products to a discerning clientele spread across these nations, 
-            thereby underscoring its unwavering dedication to upholding standards of excellence and 
-            reliability that resonate with the exacting requirements of the European market.
-          </motion.p>
+
         </motion.div>
         <motion.div className='w-full mt-6 lg:mt-0 lg:w-1/2 lg:ml-6' variants={fadeInLeft}>
           <img src={firstImage} alt='' className='w-full h-80 lg:h-[70vh] object-cover' />

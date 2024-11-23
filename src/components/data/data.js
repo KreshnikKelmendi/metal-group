@@ -1,6 +1,8 @@
-import image1 from "../Assets/firstWork.jpg";
-import image2 from "../Assets/secondwork.jpg";
-import image3 from "../Assets/thirdwork.jpg";
+import image1 from "../Assets/update-1.jpg";
+import image2 from "../Assets/work-2.jpg";
+import image3 from "../Assets/work-3.jpg";
+import image4 from "../Assets/work-4.jpg"
+import image5 from "../Assets/work-5.jpg"
 
 const worksData = [
     {
@@ -22,18 +24,18 @@ const worksData = [
       textTitle: 'FLEXOGRAF',
       description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet',
     },
-    // {
-    //   id:4,
-    //   firstImage: image3,
-    //   textTitle: 'Work 3',
-    //   description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet',
-    // },
-    // {
-    //   id:5,
-    //   firstImage: image3,
-    //   textTitle: 'Work 3',
-    //   description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet',
-    // },
+    {
+      id:4,
+      firstImage: image4,
+      textTitle: 'Work 3',
+      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet',
+    },
+    {
+      id:5,
+      firstImage: image5,
+      textTitle: 'Work 3',
+      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet',
+    },
     // {
     //   id:6,
     //   firstImage: image3,

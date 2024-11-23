@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import picture1 from '../Assets/service1.png';
+import picture1 from '../Assets/update-1.jpg';
 import picture2 from '../Assets/service2.jpg';
 import picture3 from '../Assets/service3.jpg';
 import picture4 from '../Assets/service4.jpg';
-import picture5 from '../Assets/structuree.jpg';
+import picture5 from '../Assets/update-2.jpg';
 
 const ServiceItem = ({ service, index }) => {
   const [ref, inView] = useInView({
