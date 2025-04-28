@@ -84,7 +84,7 @@ const OurService = () => {
   ];
 
   return (
-    <div className='w-full py-5 relative mt-5'>
+    <div className='w-full py-5 relative mt-5 container mx-auto'>
       <p className='text-black font-custom text-center'>Our Services</p>
       <p className='text-center font-custom1 text-black text-3xl'>We work to craft</p>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 px-3 lg:px-8 py-10'>

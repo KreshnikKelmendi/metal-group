@@ -6,6 +6,7 @@ import SliderHome from '../about/SliderHome'
 import Team from '../about/Team'
 import Export from '../home/Export'
 import OurService from '../services/OurService'
+import ServiceMap from '../services/ServiceMap'
 
 const Homepage = () => {
   return (
@@ -16,7 +17,8 @@ const Homepage = () => {
     <OurService />
     <SliderHome />
     <Team />
-    <Export />
+    {/* <Export /> */}
+    <ServiceMap />
     </>
   )
 }

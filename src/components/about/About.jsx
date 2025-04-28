@@ -6,20 +6,47 @@ import { useInView } from 'react-intersection-observer';
 
 const About = () => {
   const controls = useAnimation();
-  const [ref, inView] = useInView();
+  const [ref, inView] = useInView({
+    threshold: 0.1,
+    triggerOnce: true
+  });
 
   // Animation variants
   const containerVariants = {
-    hidden: { opacity: 0, x: -50 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: 'easeInOut' } },
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1,
+      transition: { 
+        duration: 0.8,
+        staggerChildren: 0.3
+      } 
+    },
+  };
+
+  const textVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: { 
+        duration: 0.8,
+        ease: [0.2, 0.8, 0.3, 1]
+      } 
+    },
   };
 
   const imageVariants = {
-    hidden: { opacity: 0, x: 50 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: 'easeInOut' } },
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: { 
+      opacity: 1, 
+      scale: 1,
+      transition: { 
+        duration: 1,
+        ease: [0.2, 0.8, 0.3, 1]
+      } 
+    },
   };
 
-  // Trigger animation when in view
   useEffect(() => {
     if (inView) {
       controls.start('visible');
@@ -27,45 +54,90 @@ const About = () => {
   }, [controls, inView]);
 
   return (
-    <motion.div
-      className='w-full flex flex-col justify-center items-center lg:flex-row px-5 lg:px-8 mt-6 lg:mt-16'
+    <motion.section
+      className="w-full bg-white py-16 lg:py-24 px-5 lg:px-8"
       variants={containerVariants}
-      initial='hidden'
+      initial="hidden"
       animate={controls}
       ref={ref}
     >
-      <div className='lg:w-1/2'>
-        <p className='font-custom text-3xl lg:text-[55px] text-[#0a1f2b] uppercase'>About Us</p>
-        <motion.p className='text-[#444] text-sm font-custom1 mt-4'>
-            <b className='text-4xl'>1967</b> <br />
-            HAS STARTED WORKING IN THE METAL INDUSTRY SINCE
-            <br /><br />
-            Metal Group LLC 1967 specialized company for the production of metal structures which operates in two locations where its headquarters is in Gjilan, Kosovo.
-            <br /><br />
-            The production capacity on a monthly basis will be <b>250–300MT</b> or <b>3000–3600MT</b> on an annual basis thanks to the most modern machinery in the metal industry.
-            <br /><br />
-            All the processing (steel construction) is for European market for several years now and continues to respond to your requests in the most professional way.
-          </motion.p>
-        <Link to="/about-metal-group" onClick={() => window.scrollTo({ top: 0, left: 0 })}>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className='bg-[#0a1f2b] text-white w-[200px] mt-5 py-2 rounded-md hover:bg-[#444]'
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+          {/* Image - Taller version */}
+          <motion.div 
+            className="lg:w-1/2 relative"
+            variants={imageVariants}
           >
-            See More
-          </motion.button>
-        </Link>
+            <div className="relative h-[500px] lg:h-[650px] w-full overflow-hidden rounded-2xl shadow-2xl">
+              <img 
+                src={imageAbout} 
+                alt="Metal Group 1967 manufacturing facility" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 to-transparent"></div>
+              <div className="absolute bottom-8 left-8 text-white">
+                <span className="block font-custom1 text-5xl font-bold mb-2">1967</span>
+                <span className="text-2xl font-medium font-custom">Since</span>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Text Content */}
+          <motion.div 
+            className="lg:w-1/2 flex flex-col justify-center"
+            variants={textVariants}
+          >
+            <motion.div variants={textVariants}>
+              <span className="text-lg font-semibold uppercase tracking-wider font-custom">About Us</span>
+          
+            </motion.div>
+
+            <motion.div 
+              className="space-y-5 text-gray-700 text-sm leading-relaxed font-custom1"
+              variants={textVariants}
+            >
+                Metal Group 1967 LLC has been operating since <b className='text-lg lg:text-xl'>1967</b>, which since
+            those distant years has developed in many directions in the metal
+            industry. The last step of Metal Group 1967 LLC has been the next
+            investment in increasing production capacities where we built a
+            production hall of a surface of 5000m2 in which we have installed the
+            latest generation machinery.<br /><br />
+            Metal Group 1967 LLC now operates in Gjilan in the Rep.Kosovo which
+            is also certified ISO 9001, EN 3834-2 EN 1090-1 EXC 3.
+            Our capacities are 400T on a monthly basis.
+            Regarding the technical aspect, we also have a technical office where
+            we operate with software such as Tekla and we also perform static
+            calculations.<br /><br />
+            Metal Group 1967 LLC exports to many European countries such as
+            Switzerland, Germany, Austria, Luxembourg, the Czech Republic,
+            Sweden, France, Estonia, Romania.
+            The policy of our company is mainly to create relationships between
+            clients in the form of partnership, which leads us to a serious and long-
+            term cooperation from both sides.
+            </motion.div>
+
+            <motion.div 
+              className="mt-8 flex flex-wrap gap-4"
+              variants={textVariants}
+            >
+              <Link to="/about-metal-group" onClick={() => window.scrollTo({ top: 0, left: 0 })}>
+                <motion.button
+                  whileHover={{ 
+                    y: -3,
+                    boxShadow: "0 10px 20px rgba(37, 99, 235, 0.2)"
+                  }}
+                  whileTap={{ scale: 0.98 }}
+                  className="bg-[#0a1f2b] text-white w-[200px] mt-5 py-2 rounded-md hover:bg-[#444]"
+                >
+                  See More
+                </motion.button>
+              </Link>
+            
+            </motion.div>
+          </motion.div>
+        </div>
       </div>
-      <motion.div
-        className='lg:w-1/2 mt-6 lg:pl-16'
-        variants={imageVariants}
-        initial='hidden'
-        animate={controls}
-        ref={ref}
-      >
-        <img src={imageAbout} alt='' className='w-full h-80 lg:h-96 object-cover' />
-      </motion.div>
-    </motion.div>
+    </motion.section>
   );
 };
 
