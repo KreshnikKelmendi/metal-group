@@ -22,39 +22,39 @@ import image21 from "../Assets/project- (21).jpg";
 import image22 from "../Assets/project- (22).jpg";
 import image23 from "../Assets/project- (23).jpg";
 import image24 from "../Assets/project- (24).jpg";
-import image25 from "../Assets/project- (25).jpg";
-import image26 from "../Assets/project- (26).jpg";
-import image27 from "../Assets/project- (27).jpg";
-import image28 from "../Assets/project- (28).jpeg";
+// import image25 from "../Assets/project- (25).jpg";
+// import image26 from "../Assets/project- (26).jpg";
+// import image27 from "../Assets/project- (27).jpg";
+// import image28 from "../Assets/project- (28).jpeg";
 import image29 from "../Assets/project- (29).jpg";
 import image30 from "../Assets/project- (30).jpg";
 import image31 from "../Assets/project- (31).jpg";
 
 const worksData = [
-  {
-    id: 28,
-    firstImage: image28,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
-  },
-  {
-    id: 27,
-    firstImage: image27,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
-  },
-  {
-    id: 26,
-    firstImage: image26,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
-  },
-  {
-    id: 25,
-    firstImage: image25,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
-  },
+  // {
+  //   id: 28,
+  //   firstImage: image28,
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //   fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
+  // },
+  // {
+  //   id: 27,
+  //   firstImage: image27,
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //   fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
+  // },
+  // {
+  //   id: 26,
+  //   firstImage: image26,
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //   fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
+  // },
+  // {
+  //   id: 25,
+  //   firstImage: image25,
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  //   fullText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...'
+  // },
   {
     id: 1,
     firstImage: image1,

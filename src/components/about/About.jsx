@@ -68,7 +68,7 @@ const About = () => {
             className="lg:w-1/2 relative"
             variants={imageVariants}
           >
-            <div className="relative h-[500px] lg:h-[650px] w-full overflow-hidden rounded-2xl shadow-2xl">
+            <div className="relative h-[500px] lg:h-[650px] w-full overflow-hidden shadow-2xl">
               <img 
                 src={imageAbout} 
                 alt="Metal Group 1967 manufacturing facility" 
